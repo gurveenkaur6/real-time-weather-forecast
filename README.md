@@ -115,3 +115,6 @@ The Weather Information App provides real-time weather information for any locat
 
 <img width="1361" alt="Screenshot 2024-07-29 at 5 14 13 PM" src="https://github.com/user-attachments/assets/fc609376-073c-4ad7-8903-5656cc29de12">
 
+## App workflow matplotlib graph
+
+<img width="1038" alt="Screenshot 2024-07-29 at 5 23 01 PM" src="https://github.com/user-attachments/assets/f6dc0086-9400-4cb5-a477-9f493247c172">
