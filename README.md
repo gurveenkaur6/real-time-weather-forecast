@@ -1,6 +1,16 @@
 # Real-time-weather-forecast
 A weather app that integrates OpenAI's GPT model with OpenWeatherMap API to deliver precise and up-to-date weather forecasts.
 
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Setup-and-Running](#setup-and-running)
+- [Usage](#usage)
+
+
+
 ## Overview
 
 The Weather Information App provides real-time weather information for any location using OpenAI's GPT model and the OpenWeatherMap API. It leverages LangGraph workflow to process user input and retrieve accurate weather data.
@@ -17,7 +27,7 @@ The Weather Information App provides real-time weather information for any locat
 - pip for package management
 - .env file for API keys
 
-## Setup
+## Setup and Running 
 
 1. **Clone the repository**
 
@@ -48,7 +58,7 @@ The Weather Information App provides real-time weather information for any locat
     OPENAI_API_KEY=your_openai_api_key
     ```
 
-## Running the Application
+### Running the Application
 
 1. **Run the Streamlit app**
 
@@ -64,7 +74,7 @@ The Weather Information App provides real-time weather information for any locat
 2. Click the "Get Weather" button to fetch weather information.
 3. Review the weather report displayed on the screen.
 
-## Code Overview
+### Code Overview
 
 - **Environment Configuration**: Loads API keys from the `.env` file and sets up Langsmith tracing.
 - **LangChain Workflow**: Defines a graph with nodes for extracting city names, fetching weather data, and providing temperature information.
@@ -107,14 +117,14 @@ The Weather Information App provides real-time weather information for any locat
     st.markdown("...")
     ```
 
-## App Usage ScreenShorts
+### App Usage ScreenShorts
 
 <img width="1397" alt="Screenshot 2024-07-29 at 5 12 57 PM" src="https://github.com/user-attachments/assets/cf904109-87e7-452b-a551-2e5779db3272">
 
-## App Trace in LangSmith
+### App Trace in LangSmith
 
 <img width="1361" alt="Screenshot 2024-07-29 at 5 14 13 PM" src="https://github.com/user-attachments/assets/fc609376-073c-4ad7-8903-5656cc29de12">
 
-## App workflow matplotlib graph
+### App workflow matplotlib graph
 
 <img width="1038" alt="Screenshot 2024-07-29 at 5 23 01 PM" src="https://github.com/user-attachments/assets/f6dc0086-9400-4cb5-a477-9f493247c172">
